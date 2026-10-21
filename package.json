@@ -2,10 +2,11 @@
   "name": "my-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"tailwindcss -i ./src/input.css -o ./output.css --watch"
+    "dev": "tailwindcss -i ./src/input.css -o ./output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./output.css --minify"
   },
   "keywords": [],
   "author": "",
