@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="smooth">
 
 <head>
   <meta charset="UTF-8">
@@ -12,20 +12,20 @@
   <title>AI Computer</title>
 </head>
 
-<body class="bg-gray-50 text-gray-800 font-sans">
+<body class="bg-[#0e0e11] text-gray-800 font-sans">
 
   <!-- ================= TOP HEADER ================= -->
-  <header class="bg-white border border-gray-200 sticky top-0 z-50  ">
+  <header class=" border-b border-white/10  sticky top-0 z-50  bg-[#0e0e11]/75 backdrop-blur-lg transition-all">
     <div class="max-w-350 mx-auto flex justify-between items-center px-4 py-4 gap-4">
 
       <!-- 1. Logo & Brand -->
       <div class="flex items-center gap-3">
         <div>
-          <a href="" class="flex w-10 h-10"><img class="w-full" src="./src/assets/images/AI-logo-black.png" alt=""></a>
+          <a href="" class="flex w-10 h-10"><img class="w-full" src="./src/assets/images/AI-logo-white.png" alt=""></a>
         </div>
         <div>
-          <h1 class="text-lg font-black text-slate-800 uppercase leading-none tracking-tight ">AI Computer</h1>
-          <p class="text-[11px] text-gra font-medium mt-0.5">SALES · SERVICE · UPGRADE</p>
+          <h1 class="text-lg font-black text-gray-400 uppercase leading-none tracking-tight ">AI Computer</h1>
+          <p class="text-[11px] text-gra font-medium mt-0.5 text-white">SALES · SERVICE · UPGRADE</p>
         </div>
       </div>
 
@@ -35,14 +35,14 @@
           <i class="fa-solid fa-magnifying-glass text-sm"></i>
         </span>
         <input type="text" placeholder="Search Laptops, desktops, part..."
-          class="w-full pl-10 py-2 rounded-full border border-gray-300 focus:outline-none text-sm bg-gray-50">
+          class="w-full pl-10 py-2 rounded-full border border-white/10 focus:outline-none text-sm bg-transparent">
       </div>
 
       <!-- 3. Social Icons & Phone Contact -->
       <div class="flex items-center gap-4">
 
         <!-- Social Icons -->
-        <div class="hidden lg:flex items-center gap-3 text-gray-600 text-base">
+        <div class="hidden lg:flex items-center gap-3 text-orange-500 text-base">
           <a href="#" class="hover:text-blue-600"><i class="fa-brands fa-facebook text-xl"></i></a>
           <a href="#" class="hover:text-blue-400"><i class="fa-brands fa-telegram text-xl"></i></a>
           <a href="#" class="hover:text-green-500"><i class="fa-brands fa-square-whatsapp text-xl"></i></a>
@@ -51,7 +51,7 @@
 
         <!-- Phone Call Button -->
         <a href="tel:093274426"
-          class="flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full font-bold text-sm transition">
+          class="flex items-center gap-2 bg-orange-500 hover:bg-amber-500 text-white px-4 py-2 rounded-full font-bold text-sm transition">
           <i class="fa-solid fa-phone"></i>
           <span>
             093274426
@@ -63,12 +63,12 @@
 
 
     <!-- ================= NAVIGATION MENU ================= -->
-    <nav class="border border-gray-200  bg-white">
+    <nav class="border-none border-gray-200 border-none  bg-transparent">
       <div class="max-w-350 mx-auto px-4 ">
         <ul
-          class="flex items-center justify-between text-[14px] font-bold text-gray-700 tracking-wide  py-2.5  overflow-x-auto whitespace-nowrap space-x-8">
+          class="flex items-center justify-between text-[14px] font-bold text-gray-400 tracking-wide  py-2.5  overflow-x-auto whitespace-nowrap space-x-8">
           <li><a href="#"
-              class="text-indigo-700 hover:text-indigo-700 transition pb-1 relative after:absolute after:left-0 after:bottom-0 after:w-full after:bg-yellow-400 after:h-0.5">LAPTOP</a>
+              class="text-indigo-700 hover:text-indigo-700 transition pb-1 relative after:absolute after:left-0 after:bottom-0 after:w-full after:bg-orange-500 after:h-0.5">LAPTOP</a>
           </li>
           <li><a href="" class="hover:text-indigo-700 transition border-b-animation">DESKTOP</a></li>
           <li><a href="" class="hover:text-indigo-700 transition border-b-animation">PC PART</a></li>
@@ -87,43 +87,79 @@
   </header>
 
   <!-- ================= MAIN CONTENT SECTION ================= -->
-  <main class="max-w-350 mx-auto px-4 py-6">
+  <main class="max-w-full mx-auto px-4 py-6">
 
-    <!-- 1. Hero Banner Slider Container -->
+    <!-- ================= 1. CUSTOM PC HERO SECTION ================= -->
     <div
-      class="relative w-full rounded-2xl bg-slate-900  overflow-hidden shadow-lg  flex h-48 sm:h-80 md:min-h-[460px]">
-      <img class="w-full h-full object-fill absolute" src="./src/assets/images/Dealer-web.jpg" alt="Promo banner">
-
-      <!-- Banner Content / Illustration Overlay -->
-      <button
-        class="absolute left-4 w-10 h-10 bg-gray-300 hover:bg-white cursor-pointer rounded-full top-1/2 z-20 transition flex justify-center items-center ">
-        <i class="fa-solid fa-chevron-left"></i>
-      </button>
-
-      <!-- Banner Content / Illustration Overlay -->
-      <button
-        class="absolute right-4 w-10 h-10 bg-gray-300 hover:bg-white cursor-pointer rounded-full top-1/2 z-20 transition flex justify-center items-center">
-        <i class="fa-solid fa-chevron-right"></i>
-      </button>
-
-      <!-- Slider Indicators Dots -->
+      class="relative w-full rounded-3xl bg-[#0e0e11] text-white overflow-hidden shadow-2xl min-h-[520px] lg:min-h-[580px] flex items-center justify-center px-6 sm:px-12 lg:px-16 py-12 my-4">
+      <!-- 1.1 Ambient Glow Background (ពន្លឺចាំងពណ៌ទឹកក្រូចស្រាលៗពីក្រោយ) -->
       <div
-        class="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-2 bg-black/30 px-3 py-1.5 rounded-full z-20">
-        <span class="w-2.5 h-2.5 bg-white rounded-full"></span>
-        <span class="w-2.5 h-2.5 bg-white/50 rounded-full hover:bg-white cursor-pointer"></span>
-        <span class="w-2.5 h-2.5 bg-white/50 rounded-full hover:bg-white cursor-pointer"></span>
+        class="absolute -left-20 top-1/2 -translate-y-1/2 w-96 h-96 bg-amber-500/15 rounded-full blur-[120px] pointer-events-none">
+      </div>
+      <div class="absolute right-1/4 bottom-0 w-80 h-80 bg-orange-600/10 rounded-full blur-[100px] pointer-events-none">
+      </div>
+      <!-- 1.2 Giant Watermark Background Text  -->
+      <span
+        class="absolute right-12 top-8 text-[120px] lg:text-[160px] font-black text-white/[0.03] select-none pointer-events-none tracking-widest hidden sm:block">
+        COMPUTER
+      </span>
+
+      <!-- 1.3 Main 2-Column Content Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center w-full z-10">
+
+        <!-- ================= Hero image left ================= -->
+        <div class="lg:col-span-6 relative flex justify-center items-end">
+          <img
+            class="relative z-10 min-h-100 sm:max-h-130 lg:min-h-170  object-contain drop-shadow-[0_20px_40px_rgba(245,158,11,0.25)] hover:scale-105 transition duration-500 lg:translate-x-30"
+            src="./src/assets/images/hero_image.png" alt="Custom Gaming PC">
+        </div>
+        <!-- ================= Text & Button right ================= -->
+        <div class="lg:col-span-6 flex flex-col justify-center  space-y-6 lg:pl-4 text-left items-center">
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.1] text-white">
+            Power Up <br>
+            Your Work & <br>
+            <span class="text-orange-500">custom PC</span>
+          </h1>
+          <p class="text-gray-400 text-sm sm:text-base max-w-md leading-relaxed font-normal">
+            Discover top-tier gaming, business, and study laptops at AI Computer. Genuine quality, reliable warranty,
+            and trusted after-sales support.
+          </p>
+          <!-- Action Button -->
+          <div class="pt-2 flex items-center gap-4">
+            <a href="#"
+              class="inline-flex items-center justify-center bg-orange-500 hover:bg-orange-500 text-gray-950 font-extrabold text-sm px-8 py-3.5 rounded-full transition-all duration-300 shadow-[0_0_20px_rgba(251,191,36,0.35)] hover:shadow-[0_0_30px_rgba(251,191,36,0.6)] hover:-translate-y-0.5 active:translate-y-0">
+              Custom Now
+            </a>
+          </div>
+
+        </div>
+
       </div>
 
+      <!-- 1.4 Vertical Pagination Dots (នៅគែមស្ដាំ) -->
+      <div class="absolute right-4 top-1/2 -translate-y-1/2 hidden md:flex flex-col gap-2.5 z-20">
+        <span class="w-2 h-2 rounded-full bg-amber-400"></span>
+        <span class="w-1.5 h-1.5 rounded-full bg-white/30"></span>
+        <span class="w-1.5 h-1.5 rounded-full bg-white/30"></span>
+      </div>
+
+      <!-- 1.5 Vertical "scroll down" Text (នៅគែមស្ដាំបាតក្រោម) -->
+      <div
+        class="absolute right-4 bottom-6 hidden md:flex items-center gap-2 [writing-mode:vertical-rl] text-[10px] text-gray-500 tracking-widest uppercase">
+        <span>scroll down</span>
+        <span class="w-px h-8 bg-gray-600"></span>
+      </div>
     </div>
 
-    <!-- 2. Marquee / Announcement Ticker Bar -->
-    <div class="mt-8 flex items-center justify-center bg-purple-50 border border-gray-300 rounded-base">
-      <div class="p-[10px] font-bold overflow-hidden whitespace-nowrap">
-        <div class="animate-marquee " >
+
+    <!-- 2. Marquee / Announcement Ticker Bar bg-purple-50 -->
+    <div class="mt-8 flex items-center justify-center border border-gray-300 border-none rounded-base">
+      <div class="p-[10px] font-bold overflow-hidden whitespace-nowrap text-white">
+        <div class="animate-marquee ">
           AI COMPUTER - មានលក់កុំព្យូទ័រថ្មី មួយទឹក | ទំនុកចិត្តខ្ពស់ សេវាកម្ម គុណភាព | YOUR TRUSTED TECHNOLOGY PARTNER,
           HIGH QUALITY PRODUCT, AFTER SALES SUPPORT : 015 646 581 / 012 646 581 &nbsp;&nbsp;&nbsp;
         </div>
-        <div class="animate-marquee " >
+        <div class="animate-marquee ">
           AI COMPUTER - មានលក់កុំព្យូទ័រថ្មី មួយទឹក | ទំនុកចិត្តខ្ពស់ សេវាកម្ម គុណភាព | YOUR TRUSTED TECHNOLOGY PARTNER,
           HIGH QUALITY PRODUCT, AFTER SALES SUPPORT : 015 646 581 / 012 646 581
         </div>
@@ -140,9 +176,9 @@
 
   </main>
 
-  <!-- ================= Brand Filter Tags  ================= -->
+  <!-- ================= Brand Filter Tags  =================bg-white -->
   <div
-    class="sticky top-30 z-40 py-2 mb-6 flex justify-center max-full gap-2.5 flex-wrap scrollbar-none  bg-white border-b border-b-gray-200">
+    class="sticky top-30 z-40 py-2 mb-6 flex justify-center max-full gap-2.5 flex-wrap scrollbar-none   border-b border-b-gray-200">
     <a href="" class="brand-btn">ASUS</a>
     <a href="" class="brand-btn">TUF</a>
     <a href="" class="brand-btn">ROG</a>
@@ -192,7 +228,7 @@
         <div class="flex justify-center px-2 py-2"><a href="" class="default-company">DEFAULT
             COMPANY</a></div>
         <!-- Product Title -->
-        <div class="px-2 pt-2 text-sm font-bold">
+        <div class="px-2 pt-2 text-[16px] font-bold text-indigo-600">
           <h3>Asus ExpertBook B1503CVA S79007</h3>
         </div>
         <!-- Price -->
@@ -204,7 +240,7 @@
         <div class="h-px w-full bg-gray-300 mt-2">
         </div>
         <!-- Specs Details -->
-        <div class="pt-2 text-2xs md:text-xs font-medium text-gray-600">
+        <div class="pt-2 text-2xs md:text-xs font-medium text-gray-400">
           <ul class="space-y-1">
             <li><span>- CPU :</span><span class="text-indigo-600"> Intel Core 5-120U (10C/12T)</span></li>
             <li><span>- RAM :</span><strong> 16GB DDR5 |</strong><strong> SSD : 512GB PCIe</strong></li>
@@ -227,137 +263,7 @@
         </div>
       </div>
 
-      <!-- ================= Card 2 ================= -->
-      <div class="card">
-        <!-- Product Image -->
-        <div class="px-2 pt-2"><img src="./src/assets/images/laptop_asus_expert_book.png" alt=""></div>
-        <!-- Badge Tag -->
-        <div class="flex justify-center px-2 py-2"><a href="" class="vip-specs">VIP
-            SPECS
-          </a></div>
-        <!-- Product Title -->
-        <div class="px-2 pt-2 text-sm font-bold">
-          <h3>Asus ExpertBook B1503CVA S79007</h3>
-        </div>
-        <!-- Price -->
-        <div class="px-2 pt-2">
-          <span class="text-sm font-medium line-through text-gray-400">$849</span>
-          <span class="text-lg font-bold text-red-500">$749</span>
-        </div>
-        <!-- Line -->
-        <div class="h-px w-full bg-gray-300 mt-2">
-        </div>
-        <!-- Specs Details -->
-        <div class="pt-2 text-xs font-medium text-gray-600">
-          <ul class="space-y-1">
-            <li><span>- CPU :</span><span class="text-indigo-600"> Intel Core 5-120U (10C/12T)</span></li>
-            <li><span>- RAM :</span><strong> 16GB DDR5 |</strong><strong> SSD : 512GB PCIe</strong></li>
-            <li><span>- DISPLAY :</span> 15.6" FHD (1920 x 1080)</li>
-            <li><span>- GPU :</span> Intel Graphics</li>
-            <li><span>- OS :</span> DOS</li>
-            <li><span>- Weight :</span> 1.68Kg |<span> Color :</span> Misty Grey</li>
-            <li><span>- Code :</span> L001-B1503CVA1</li>
-          </ul>
-
-          <div>
-            ------------------------
-          </div>
-
-          <!-- Free Gifts / Bottom Extra -->
-          <div>
-            <p>- Free : Backpack, Wireless Mouse</p>
-            <p>- Free : Cleaning Kit, MousePad</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- ================= Card 3 ================= -->
-      <div class="card">
-        <!-- Product Image -->
-        <div class="px-2 pt-2"><img src="./src/assets/images/laptop_asus_expert_book.png" alt=""></div>
-        <!-- Badge Tag -->
-        <div class="flex justify-center px-2 py-2"><a href="" class="vip-specs">VIP
-            SPECS</a></div>
-        <!-- Product Title -->
-        <div class="px-2 pt-2 text-sm font-bold">
-          <h3>Asus ExpertBook B1503CVA S79007</h3>
-        </div>
-        <!-- Price -->
-        <div class="px-2 pt-2">
-          <span class="text-sm font-medium line-through text-gray-400">$849</span>
-          <span class="text-lg font-bold text-red-500">$749</span>
-        </div>
-        <!-- Line -->
-        <div class="h-px w-full bg-gray-300 mt-2">
-        </div>
-        <!-- Specs Details -->
-        <div class="pt-2 text-xs font-medium text-gray-600">
-          <ul class="space-y-1">
-            <li><span>- CPU :</span><span class="text-indigo-600"> Intel Core 5-120U (10C/12T)</span></li>
-            <li><span>- RAM :</span><strong> 16GB DDR5 |</strong><strong> SSD : 512GB PCIe</strong></li>
-            <li><span>- DISPLAY :</span> 15.6" FHD (1920 x 1080)</li>
-            <li><span>- GPU :</span> Intel Graphics</li>
-            <li><span>- OS :</span> DOS</li>
-            <li><span>- Weight :</span> 1.68Kg |<span> Color :</span> Misty Grey</li>
-            <li><span>- Code :</span> L001-B1503CVA1</li>
-          </ul>
-
-          <div>
-            ------------------------
-          </div>
-
-          <!-- Free Gifts / Bottom Extra -->
-          <div>
-            <p>- Free : Backpack, Wireless Mouse</p>
-            <p>- Free : Cleaning Kit, MousePad</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- ================= Card 4 ================= -->
-      <div class="card">
-        <!-- Product Image -->
-        <div class="px-2 pt-2"><img src="./src/assets/images/laptop_asus_expert_book.png" alt=""></div>
-        <!-- Badge Tag -->
-        <div class="flex justify-center px-2 py-2"><a href="" class="vip-specs">VIP
-            SPECS</a></div>
-        <!-- Product Title -->
-        <div class="px-2 pt-2 text-sm font-bold">
-          <h3>Asus ExpertBook B1503CVA S79007</h3>
-        </div>
-        <!-- Price -->
-        <div class="px-2 pt-2">
-          <span class="text-sm font-medium line-through text-gray-400">$849</span>
-          <span class="text-lg font-bold text-red-500">$749</span>
-        </div>
-        <!-- Line -->
-        <div class="h-px w-full bg-gray-300 mt-2">
-        </div>
-        <!-- Specs Details -->
-        <div class="pt-2 text-xs font-medium text-gray-600">
-          <ul class="space-y-1">
-            <li><span>- CPU :</span><span class="text-indigo-600"> Intel Core 5-120U (10C/12T)</span></li>
-            <li><span>- RAM :</span><strong> 16GB DDR5 |</strong><strong> SSD : 512GB PCIe</strong></li>
-            <li><span>- DISPLAY :</span> 15.6" FHD (1920 x 1080)</li>
-            <li><span>- GPU :</span> Intel Graphics</li>
-            <li><span>- OS :</span> DOS</li>
-            <li><span>- Weight :</span> 1.68Kg |<span> Color :</span> Misty Grey</li>
-            <li><span>- Code :</span> L001-B1503CVA1</li>
-          </ul>
-
-          <div>
-            ------------------------
-          </div>
-
-          <!-- Free Gifts / Bottom Extra -->
-          <div>
-            <p>- Free : Backpack, Wireless Mouse</p>
-            <p>- Free : Cleaning Kit, MousePad</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- ================= Card 5 ================= -->
+      <!-- ================= Card 1 ================= -->
       <div class="card">
         <!-- Product Image -->
         <div class="px-2 pt-2"><img src="./src/assets/images/laptop_asus_expert_book.png" alt=""></div>
@@ -365,7 +271,7 @@
         <div class="flex justify-center px-2 py-2"><a href="" class="default-company">DEFAULT
             COMPANY</a></div>
         <!-- Product Title -->
-        <div class="px-2 pt-2 text-sm font-bold">
+        <div class="px-2 pt-2 text-[16px] font-bold text-indigo-600">
           <h3>Asus ExpertBook B1503CVA S79007</h3>
         </div>
         <!-- Price -->
@@ -377,7 +283,7 @@
         <div class="h-px w-full bg-gray-300 mt-2">
         </div>
         <!-- Specs Details -->
-        <div class="pt-2 text-xs font-medium text-gray-600">
+        <div class="pt-2 text-2xs md:text-xs font-medium text-gray-400">
           <ul class="space-y-1">
             <li><span>- CPU :</span><span class="text-indigo-600"> Intel Core 5-120U (10C/12T)</span></li>
             <li><span>- RAM :</span><strong> 16GB DDR5 |</strong><strong> SSD : 512GB PCIe</strong></li>
@@ -400,136 +306,7 @@
         </div>
       </div>
 
-      <!-- ================= Card 6 ================= -->
-      <div class="card">
-        <!-- Product Image -->
-        <div class="px-2 pt-2"><img src="./src/assets/images/laptop_asus_expert_book.png" alt=""></div>
-        <!-- Badge Tag -->
-        <div class="flex justify-center px-2 py-2"><a href="" class="vip-specs">VIP
-            SPECS</a></div>
-        <!-- Product Title -->
-        <div class="px-2 pt-2 text-sm font-bold">
-          <h3>Asus ExpertBook B1503CVA S79007</h3>
-        </div>
-        <!-- Price -->
-        <div class="px-2 pt-2">
-          <span class="text-sm font-medium line-through text-gray-400">$849</span>
-          <span class="text-lg font-bold text-red-500">$749</span>
-        </div>
-        <!-- Line -->
-        <div class="h-px w-full bg-gray-300 mt-2">
-        </div>
-        <!-- Specs Details -->
-        <div class="pt-2 text-xs font-medium text-gray-600">
-          <ul class="space-y-1">
-            <li><span>- CPU :</span><span class="text-indigo-600"> Intel Core 5-120U (10C/12T)</span></li>
-            <li><span>- RAM :</span><strong> 16GB DDR5 |</strong><strong> SSD : 512GB PCIe</strong></li>
-            <li><span>- DISPLAY :</span> 15.6" FHD (1920 x 1080)</li>
-            <li><span>- GPU :</span> Intel Graphics</li>
-            <li><span>- OS :</span> DOS</li>
-            <li><span>- Weight :</span> 1.68Kg |<span> Color :</span> Misty Grey</li>
-            <li><span>- Code :</span> L001-B1503CVA1</li>
-          </ul>
-
-          <div>
-            ------------------------
-          </div>
-
-          <!-- Free Gifts / Bottom Extra -->
-          <div>
-            <p>- Free : Backpack, Wireless Mouse</p>
-            <p>- Free : Cleaning Kit, MousePad</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- ================= Card 7 ================= -->
-      <div class="card">
-        <!-- Product Image -->
-        <div class="px-2 pt-2"><img src="./src/assets/images/laptop_asus_expert_book.png" alt=""></div>
-        <!-- Badge Tag -->
-        <div class="flex justify-center px-2 py-2"><a href="" class="vip-specs">VIP
-            SPECS</a></div>
-        <!-- Product Title -->
-        <div class="px-2 pt-2 text-sm font-bold">
-          <h3>Asus ExpertBook B1503CVA S79007</h3>
-        </div>
-        <!-- Price -->
-        <div class="px-2 pt-2">
-          <span class="text-sm font-medium line-through text-gray-400">$849</span>
-          <span class="text-lg font-bold text-red-500">$749</span>
-        </div>
-        <!-- Line -->
-        <div class="h-px w-full bg-gray-300 mt-2">
-        </div>
-        <!-- Specs Details -->
-        <div class="pt-2 text-xs font-medium text-gray-600">
-          <ul class="space-y-1">
-            <li><span>- CPU :</span><span class="text-indigo-600"> Intel Core 5-120U (10C/12T)</span></li>
-            <li><span>- RAM :</span><strong> 16GB DDR5 |</strong><strong> SSD : 512GB PCIe</strong></li>
-            <li><span>- DISPLAY :</span> 15.6" FHD (1920 x 1080)</li>
-            <li><span>- GPU :</span> Intel Graphics</li>
-            <li><span>- OS :</span> DOS</li>
-            <li><span>- Weight :</span> 1.68Kg |<span> Color :</span> Misty Grey</li>
-            <li><span>- Code :</span> L001-B1503CVA1</li>
-          </ul>
-
-          <div>
-            ------------------------
-          </div>
-
-          <!-- Free Gifts / Bottom Extra -->
-          <div>
-            <p>- Free : Backpack, Wireless Mouse</p>
-            <p>- Free : Cleaning Kit, MousePad</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- ================= Card 8 ================= -->
-      <div class="card">
-        <!-- Product Image -->
-        <div class="px-2 pt-2"><img src="./src/assets/images/laptop_asus_expert_book.png" alt=""></div>
-        <!-- Badge Tag -->
-        <div class="flex justify-center px-2 py-2"><a href="" class="vip-specs">VIP
-            SPECS</a></div>
-        <!-- Product Title -->
-        <div class="px-2 pt-2 text-sm font-bold">
-          <h3>Asus ExpertBook B1503CVA S79007</h3>
-        </div>
-        <!-- Price -->
-        <div class="px-2 pt-2">
-          <span class="text-sm font-medium line-through text-gray-400">$849</span>
-          <span class="text-lg font-bold text-red-500">$749</span>
-        </div>
-        <!-- Line -->
-        <div class="h-px w-full bg-gray-300 mt-2">
-        </div>
-        <!-- Specs Details -->
-        <div class="pt-2 text-xs font-medium text-gray-600">
-          <ul class="space-y-1">
-            <li><span>- CPU :</span><span class="text-indigo-600"> Intel Core 5-120U (10C/12T)</span></li>
-            <li><span>- RAM :</span><strong> 16GB DDR5 |</strong><strong> SSD : 512GB PCIe</strong></li>
-            <li><span>- DISPLAY :</span> 15.6" FHD (1920 x 1080)</li>
-            <li><span>- GPU :</span> Intel Graphics</li>
-            <li><span>- OS :</span> DOS</li>
-            <li><span>- Weight :</span> 1.68Kg |<span> Color :</span> Misty Grey</li>
-            <li><span>- Code :</span> L001-B1503CVA1</li>
-          </ul>
-
-          <div>
-            ------------------------
-          </div>
-
-          <!-- Free Gifts / Bottom Extra -->
-          <div>
-            <p>- Free : Backpack, Wireless Mouse</p>
-            <p>- Free : Cleaning Kit, MousePad</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- ================= Card 9 ================= -->
+      <!-- ================= Card 1 ================= -->
       <div class="card">
         <!-- Product Image -->
         <div class="px-2 pt-2"><img src="./src/assets/images/laptop_asus_expert_book.png" alt=""></div>
@@ -537,7 +314,7 @@
         <div class="flex justify-center px-2 py-2"><a href="" class="default-company">DEFAULT
             COMPANY</a></div>
         <!-- Product Title -->
-        <div class="px-2 pt-2 text-sm font-bold">
+        <div class="px-2 pt-2 text-[16px] font-bold text-indigo-600">
           <h3>Asus ExpertBook B1503CVA S79007</h3>
         </div>
         <!-- Price -->
@@ -549,7 +326,7 @@
         <div class="h-px w-full bg-gray-300 mt-2">
         </div>
         <!-- Specs Details -->
-        <div class="pt-2 text-xs font-medium text-gray-600">
+        <div class="pt-2 text-2xs md:text-xs font-medium text-gray-400">
           <ul class="space-y-1">
             <li><span>- CPU :</span><span class="text-indigo-600"> Intel Core 5-120U (10C/12T)</span></li>
             <li><span>- RAM :</span><strong> 16GB DDR5 |</strong><strong> SSD : 512GB PCIe</strong></li>
@@ -572,15 +349,15 @@
         </div>
       </div>
 
-      <!-- ================= Card 10 ================= -->
+      <!-- ================= Card 1 ================= -->
       <div class="card">
         <!-- Product Image -->
         <div class="px-2 pt-2"><img src="./src/assets/images/laptop_asus_expert_book.png" alt=""></div>
         <!-- Badge Tag -->
-        <div class="flex justify-center px-2 py-2"><a href="" class="vip-specs">VIP
-            SPECS</a></div>
+        <div class="flex justify-center px-2 py-2"><a href="" class="default-company">DEFAULT
+            COMPANY</a></div>
         <!-- Product Title -->
-        <div class="px-2 pt-2 text-sm font-bold">
+        <div class="px-2 pt-2 text-[16px] font-bold text-indigo-600">
           <h3>Asus ExpertBook B1503CVA S79007</h3>
         </div>
         <!-- Price -->
@@ -592,7 +369,7 @@
         <div class="h-px w-full bg-gray-300 mt-2">
         </div>
         <!-- Specs Details -->
-        <div class="pt-2 text-xs font-medium text-gray-600">
+        <div class="pt-2 text-2xs md:text-xs font-medium text-gray-400">
           <ul class="space-y-1">
             <li><span>- CPU :</span><span class="text-indigo-600"> Intel Core 5-120U (10C/12T)</span></li>
             <li><span>- RAM :</span><strong> 16GB DDR5 |</strong><strong> SSD : 512GB PCIe</strong></li>
@@ -615,15 +392,15 @@
         </div>
       </div>
 
-      <!-- ================= Card 11 ================= -->
+      <!-- ================= Card 1 ================= -->
       <div class="card">
         <!-- Product Image -->
         <div class="px-2 pt-2"><img src="./src/assets/images/laptop_asus_expert_book.png" alt=""></div>
         <!-- Badge Tag -->
-        <div class="flex justify-center px-2 py-2"><a href="" class="vip-specs">VIP
-            SPECS</a></div>
+        <div class="flex justify-center px-2 py-2"><a href="" class="default-company">DEFAULT
+            COMPANY</a></div>
         <!-- Product Title -->
-        <div class="px-2 pt-2 text-sm font-bold">
+        <div class="px-2 pt-2 text-[16px] font-bold text-indigo-600">
           <h3>Asus ExpertBook B1503CVA S79007</h3>
         </div>
         <!-- Price -->
@@ -635,7 +412,7 @@
         <div class="h-px w-full bg-gray-300 mt-2">
         </div>
         <!-- Specs Details -->
-        <div class="pt-2 text-xs font-medium text-gray-600">
+        <div class="pt-2 text-2xs md:text-xs font-medium text-gray-400">
           <ul class="space-y-1">
             <li><span>- CPU :</span><span class="text-indigo-600"> Intel Core 5-120U (10C/12T)</span></li>
             <li><span>- RAM :</span><strong> 16GB DDR5 |</strong><strong> SSD : 512GB PCIe</strong></li>
@@ -658,15 +435,15 @@
         </div>
       </div>
 
-      <!-- ================= Card 12 ================= -->
+      <!-- ================= Card 1 ================= -->
       <div class="card">
         <!-- Product Image -->
         <div class="px-2 pt-2"><img src="./src/assets/images/laptop_asus_expert_book.png" alt=""></div>
         <!-- Badge Tag -->
-        <div class="flex justify-center px-2 py-2"><a href="" class="vip-specs">VIP
-            SPECS</a></div>
+        <div class="flex justify-center px-2 py-2"><a href="" class="default-company">DEFAULT
+            COMPANY</a></div>
         <!-- Product Title -->
-        <div class="px-2 pt-2 text-sm font-bold">
+        <div class="px-2 pt-2 text-[16px] font-bold text-indigo-600">
           <h3>Asus ExpertBook B1503CVA S79007</h3>
         </div>
         <!-- Price -->
@@ -678,7 +455,7 @@
         <div class="h-px w-full bg-gray-300 mt-2">
         </div>
         <!-- Specs Details -->
-        <div class="pt-2 text-xs font-medium text-gray-600">
+        <div class="pt-2 text-2xs md:text-xs font-medium text-gray-400">
           <ul class="space-y-1">
             <li><span>- CPU :</span><span class="text-indigo-600"> Intel Core 5-120U (10C/12T)</span></li>
             <li><span>- RAM :</span><strong> 16GB DDR5 |</strong><strong> SSD : 512GB PCIe</strong></li>
@@ -700,6 +477,265 @@
           </div>
         </div>
       </div>
+
+      <!-- ================= Card 1 ================= -->
+      <div class="card">
+        <!-- Product Image -->
+        <div class="px-2 pt-2"><img src="./src/assets/images/laptop_asus_expert_book.png" alt=""></div>
+        <!-- Badge Tag -->
+        <div class="flex justify-center px-2 py-2"><a href="" class="default-company">DEFAULT
+            COMPANY</a></div>
+        <!-- Product Title -->
+        <div class="px-2 pt-2 text-[16px] font-bold text-indigo-600">
+          <h3>Asus ExpertBook B1503CVA S79007</h3>
+        </div>
+        <!-- Price -->
+        <div class="px-2 pt-2">
+          <span class="text-sm font-medium line-through text-gray-400">$849</span>
+          <span class="text-lg font-bold text-red-500">$749</span>
+        </div>
+        <!-- Line -->
+        <div class="h-px w-full bg-gray-300 mt-2">
+        </div>
+        <!-- Specs Details -->
+        <div class="pt-2 text-2xs md:text-xs font-medium text-gray-400">
+          <ul class="space-y-1">
+            <li><span>- CPU :</span><span class="text-indigo-600"> Intel Core 5-120U (10C/12T)</span></li>
+            <li><span>- RAM :</span><strong> 16GB DDR5 |</strong><strong> SSD : 512GB PCIe</strong></li>
+            <li><span>- DISPLAY :</span> 15.6" FHD (1920 x 1080)</li>
+            <li><span>- GPU :</span> Intel Graphics</li>
+            <li><span>- OS :</span> DOS</li>
+            <li><span>- Weight :</span> 1.68Kg |<span> Color :</span> Misty Grey</li>
+            <li><span>- Code :</span> L001-B1503CVA1</li>
+          </ul>
+
+          <div>
+            ------------------------
+          </div>
+
+          <!-- Free Gifts / Bottom Extra -->
+          <div>
+            <p>- Free : Backpack, Wireless Mouse</p>
+            <p>- Free : Cleaning Kit, MousePad</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= Card 1 ================= -->
+      <div class="card">
+        <!-- Product Image -->
+        <div class="px-2 pt-2"><img src="./src/assets/images/laptop_asus_expert_book.png" alt=""></div>
+        <!-- Badge Tag -->
+        <div class="flex justify-center px-2 py-2"><a href="" class="default-company">DEFAULT
+            COMPANY</a></div>
+        <!-- Product Title -->
+        <div class="px-2 pt-2 text-[16px] font-bold text-indigo-600">
+          <h3>Asus ExpertBook B1503CVA S79007</h3>
+        </div>
+        <!-- Price -->
+        <div class="px-2 pt-2">
+          <span class="text-sm font-medium line-through text-gray-400">$849</span>
+          <span class="text-lg font-bold text-red-500">$749</span>
+        </div>
+        <!-- Line -->
+        <div class="h-px w-full bg-gray-300 mt-2">
+        </div>
+        <!-- Specs Details -->
+        <div class="pt-2 text-2xs md:text-xs font-medium text-gray-400">
+          <ul class="space-y-1">
+            <li><span>- CPU :</span><span class="text-indigo-600"> Intel Core 5-120U (10C/12T)</span></li>
+            <li><span>- RAM :</span><strong> 16GB DDR5 |</strong><strong> SSD : 512GB PCIe</strong></li>
+            <li><span>- DISPLAY :</span> 15.6" FHD (1920 x 1080)</li>
+            <li><span>- GPU :</span> Intel Graphics</li>
+            <li><span>- OS :</span> DOS</li>
+            <li><span>- Weight :</span> 1.68Kg |<span> Color :</span> Misty Grey</li>
+            <li><span>- Code :</span> L001-B1503CVA1</li>
+          </ul>
+
+          <div>
+            ------------------------
+          </div>
+
+          <!-- Free Gifts / Bottom Extra -->
+          <div>
+            <p>- Free : Backpack, Wireless Mouse</p>
+            <p>- Free : Cleaning Kit, MousePad</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= Card 1 ================= -->
+      <div class="card">
+        <!-- Product Image -->
+        <div class="px-2 pt-2"><img src="./src/assets/images/laptop_asus_expert_book.png" alt=""></div>
+        <!-- Badge Tag -->
+        <div class="flex justify-center px-2 py-2"><a href="" class="default-company">DEFAULT
+            COMPANY</a></div>
+        <!-- Product Title -->
+        <div class="px-2 pt-2 text-[16px] font-bold text-indigo-600">
+          <h3>Asus ExpertBook B1503CVA S79007</h3>
+        </div>
+        <!-- Price -->
+        <div class="px-2 pt-2">
+          <span class="text-sm font-medium line-through text-gray-400">$849</span>
+          <span class="text-lg font-bold text-red-500">$749</span>
+        </div>
+        <!-- Line -->
+        <div class="h-px w-full bg-gray-300 mt-2">
+        </div>
+        <!-- Specs Details -->
+        <div class="pt-2 text-2xs md:text-xs font-medium text-gray-400">
+          <ul class="space-y-1">
+            <li><span>- CPU :</span><span class="text-indigo-600"> Intel Core 5-120U (10C/12T)</span></li>
+            <li><span>- RAM :</span><strong> 16GB DDR5 |</strong><strong> SSD : 512GB PCIe</strong></li>
+            <li><span>- DISPLAY :</span> 15.6" FHD (1920 x 1080)</li>
+            <li><span>- GPU :</span> Intel Graphics</li>
+            <li><span>- OS :</span> DOS</li>
+            <li><span>- Weight :</span> 1.68Kg |<span> Color :</span> Misty Grey</li>
+            <li><span>- Code :</span> L001-B1503CVA1</li>
+          </ul>
+
+          <div>
+            ------------------------
+          </div>
+
+          <!-- Free Gifts / Bottom Extra -->
+          <div>
+            <p>- Free : Backpack, Wireless Mouse</p>
+            <p>- Free : Cleaning Kit, MousePad</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= Card 1 ================= -->
+      <div class="card">
+        <!-- Product Image -->
+        <div class="px-2 pt-2"><img src="./src/assets/images/laptop_asus_expert_book.png" alt=""></div>
+        <!-- Badge Tag -->
+        <div class="flex justify-center px-2 py-2"><a href="" class="default-company">DEFAULT
+            COMPANY</a></div>
+        <!-- Product Title -->
+        <div class="px-2 pt-2 text-[16px] font-bold text-indigo-600">
+          <h3>Asus ExpertBook B1503CVA S79007</h3>
+        </div>
+        <!-- Price -->
+        <div class="px-2 pt-2">
+          <span class="text-sm font-medium line-through text-gray-400">$849</span>
+          <span class="text-lg font-bold text-red-500">$749</span>
+        </div>
+        <!-- Line -->
+        <div class="h-px w-full bg-gray-300 mt-2">
+        </div>
+        <!-- Specs Details -->
+        <div class="pt-2 text-2xs md:text-xs font-medium text-gray-400">
+          <ul class="space-y-1">
+            <li><span>- CPU :</span><span class="text-indigo-600"> Intel Core 5-120U (10C/12T)</span></li>
+            <li><span>- RAM :</span><strong> 16GB DDR5 |</strong><strong> SSD : 512GB PCIe</strong></li>
+            <li><span>- DISPLAY :</span> 15.6" FHD (1920 x 1080)</li>
+            <li><span>- GPU :</span> Intel Graphics</li>
+            <li><span>- OS :</span> DOS</li>
+            <li><span>- Weight :</span> 1.68Kg |<span> Color :</span> Misty Grey</li>
+            <li><span>- Code :</span> L001-B1503CVA1</li>
+          </ul>
+
+          <div>
+            ------------------------
+          </div>
+
+          <!-- Free Gifts / Bottom Extra -->
+          <div>
+            <p>- Free : Backpack, Wireless Mouse</p>
+            <p>- Free : Cleaning Kit, MousePad</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= Card 1 ================= -->
+      <div class="card">
+        <!-- Product Image -->
+        <div class="px-2 pt-2"><img src="./src/assets/images/laptop_asus_expert_book.png" alt=""></div>
+        <!-- Badge Tag -->
+        <div class="flex justify-center px-2 py-2"><a href="" class="default-company">DEFAULT
+            COMPANY</a></div>
+        <!-- Product Title -->
+        <div class="px-2 pt-2 text-[16px] font-bold text-indigo-600">
+          <h3>Asus ExpertBook B1503CVA S79007</h3>
+        </div>
+        <!-- Price -->
+        <div class="px-2 pt-2">
+          <span class="text-sm font-medium line-through text-gray-400">$849</span>
+          <span class="text-lg font-bold text-red-500">$749</span>
+        </div>
+        <!-- Line -->
+        <div class="h-px w-full bg-gray-300 mt-2">
+        </div>
+        <!-- Specs Details -->
+        <div class="pt-2 text-2xs md:text-xs font-medium text-gray-400">
+          <ul class="space-y-1">
+            <li><span>- CPU :</span><span class="text-indigo-600"> Intel Core 5-120U (10C/12T)</span></li>
+            <li><span>- RAM :</span><strong> 16GB DDR5 |</strong><strong> SSD : 512GB PCIe</strong></li>
+            <li><span>- DISPLAY :</span> 15.6" FHD (1920 x 1080)</li>
+            <li><span>- GPU :</span> Intel Graphics</li>
+            <li><span>- OS :</span> DOS</li>
+            <li><span>- Weight :</span> 1.68Kg |<span> Color :</span> Misty Grey</li>
+            <li><span>- Code :</span> L001-B1503CVA1</li>
+          </ul>
+
+          <div>
+            ------------------------
+          </div>
+
+          <!-- Free Gifts / Bottom Extra -->
+          <div>
+            <p>- Free : Backpack, Wireless Mouse</p>
+            <p>- Free : Cleaning Kit, MousePad</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= Card 1 ================= -->
+      <div class="card">
+        <!-- Product Image -->
+        <div class="px-2 pt-2"><img src="./src/assets/images/laptop_asus_expert_book.png" alt=""></div>
+        <!-- Badge Tag -->
+        <div class="flex justify-center px-2 py-2"><a href="" class="default-company">DEFAULT
+            COMPANY</a></div>
+        <!-- Product Title -->
+        <div class="px-2 pt-2 text-[16px] font-bold text-indigo-600">
+          <h3>Asus ExpertBook B1503CVA S79007</h3>
+        </div>
+        <!-- Price -->
+        <div class="px-2 pt-2">
+          <span class="text-sm font-medium line-through text-gray-400">$849</span>
+          <span class="text-lg font-bold text-red-500">$749</span>
+        </div>
+        <!-- Line -->
+        <div class="h-px w-full bg-gray-300 mt-2">
+        </div>
+        <!-- Specs Details -->
+        <div class="pt-2 text-2xs md:text-xs font-medium text-gray-400">
+          <ul class="space-y-1">
+            <li><span>- CPU :</span><span class="text-indigo-600"> Intel Core 5-120U (10C/12T)</span></li>
+            <li><span>- RAM :</span><strong> 16GB DDR5 |</strong><strong> SSD : 512GB PCIe</strong></li>
+            <li><span>- DISPLAY :</span> 15.6" FHD (1920 x 1080)</li>
+            <li><span>- GPU :</span> Intel Graphics</li>
+            <li><span>- OS :</span> DOS</li>
+            <li><span>- Weight :</span> 1.68Kg |<span> Color :</span> Misty Grey</li>
+            <li><span>- Code :</span> L001-B1503CVA1</li>
+          </ul>
+
+          <div>
+            ------------------------
+          </div>
+
+          <!-- Free Gifts / Bottom Extra -->
+          <div>
+            <p>- Free : Backpack, Wireless Mouse</p>
+            <p>- Free : Cleaning Kit, MousePad</p>
+          </div>
+        </div>
+      </div>
+
 
     </div>
   </section>
