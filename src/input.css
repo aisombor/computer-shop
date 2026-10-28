@@ -47,7 +47,7 @@
 }
 @keyframes marquee{
     0%{transform:translateX(0%)}
-    100%{transform: translate(-100%);}
+    100%{transform: translateX(-100%);}
 }
 .animate-marquee{
     display: inline-block;
@@ -57,3 +57,8 @@
 .animate-marquee:hover{
     animation-play-state: paused;
 }
+/* .container-marquee {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    
+} */
